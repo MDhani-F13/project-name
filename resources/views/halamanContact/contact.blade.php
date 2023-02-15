@@ -20,13 +20,13 @@
                             <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">About</a>
+                            <a class="nav-link" href="{{ route('about') }}">Tentang</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('services') }}">Services</a>
+                            <a class="nav-link" href="{{ route('services') }}">Layanan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link active" href="{{ route('contact') }}">Kontak</a>
                         </li>
                     </ul>
                     <!--/search-->
@@ -70,13 +70,13 @@
                 <div class="w3breadcrumb-gids">
                     <div class="w3breadcrumb-left text-left">
                         <h2 class="inner-w3-title mt-lg-5 mt-4">
-                            Contact Us </h2>
+                            Hubungi Kami </h2>
 
                     </div>
                     <div class="w3breadcrumb-right">
                         <ul class="breadcrumbs-custom-path">
                             <li><a href="{{ route('home') }}">Home</a></li>
-                            <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Contact</li>
+                            <li class="active"><span class="fas fa-angle-double-right mx-2"></span> Kontak</li>
                         </ul>
                     </div>
                 </div>
@@ -85,51 +85,139 @@
         </section>
     </div>
     <!--//inner-page-->
+
+
     <!-- contacts-5-grid -->
     <div class="w3l-contact-10 py-5" id="contact">
         <div class="form-41-mian pt-md-5 pt-3">
             <div class="container">
                 <div class="row contacts-5-grid-main mb-5">
                     <div class="col-lg-6 contacts-5-grid pe-lg-5">
-                        <h5 class="title-subw3hny">Contact our team</h5>
-                        <h3 class="title-w3l mb-3">Get in touch with us</h3>
-                        <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elitull am aliqu am, velit rutrum dictum lobortis, turpis justo auc tor quam, a auctor lorem odio in nunc.</p>
-
-                        <h4 class="title-w3l-adinf mt-4">Support Center 24/7</h4>
-                        <div class="address-grid d-flex">
-                            <i class="fas fa-headset mt-2"></i>
-                            <p><a href="tel:+12 324-016-694" class="link1">+12 324-016-694</a></p>
-                        </div>
-                        <div class="address-grid d-flex">
-                            <i class="fas fa-envelope"></i>
-                            <p class="mt-0"><a href="mailto:mail@example.com" class="link1">Office@example.com</a></p>
-
-                        </div>
+                        <h5 class="title-subw3hny">Kontak</h5>
+                        <h3 class="title-w3l mb-3">Hubungi kami</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, cons ectetur adipiscing elitull am aliqu am, velit rutrum dictum lobortis, turpis justo auc tor quam, a auctor lorem odio in nunc.
+                        </p>
                     </div>
 
                     <div class="col-lg-6 form-inner-cont mt-lg-0 mt-4">
-                        <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
-                            <div class="form-grids">
-                                <div class="form-input">
-                                    <input type="text" name="w3lName" id="w3lName" placeholder="Enter your name *" required="" />
-                                </div>
-                                <div class="form-input">
-                                    <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Enter subject " required />
-                                </div>
-                                <div class="form-input">
-                                    <input type="email" name="w3lSender" id="w3lSender" placeholder="Enter your email *" required />
-                                </div>
-                                <div class="form-input">
-                                    <input type="text" name="w3lPhone" id="w3lPhone" placeholder="Enter your Phone Number *" required />
+                        <h5 class="title-subw3hny">Kantor</h5>
+                        <h3 class="title-w3l mb-3">Cabang Kami</h3>
+                        <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    #01. Bekasi - Jawa Barat
+                                </button>
+                            </h4>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <h4 class="title-w3l-adinf mb-3">Alamat Kantor</h4>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-map-marker-alt"></i>
+                                        Pesona Metropolitan Ruko Gardenia Block RC 12 15<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jl. Raya Siliwangi KM.7, Bekasi 17116
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="fas fa-envelope"></i>
+                                        central@bumindo..com
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-phone-alt"></i>
+                                        (62-21) 2936 7577 / (62-21) 2936 7578 (Fax)
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="far fa-clock"></i>
+                                        Senin - Sabtu: 9:00 - 17:00
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-globe "></i>
+                                        Map Direction
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-input">
-                                <textarea name="w3lMessage" id="w3lMessage" placeholder="Type your query here" required=""></textarea>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    #02. Sukoharjo - Jawa Tengah
+                                </button>
+                            </h4>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <h4 class="title-w3l-adinf mb-3">Alamat Kantor</h4>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-map-marker-alt"></i>
+                                        Ds. Bacem RT. 04/05 Kel. Grogol, Kec Grogol.
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="fas fa-envelope"></i>
+                                        -
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-phone-alt"></i>
+                                        0813 2890 1090
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="far fa-clock"></i>
+                                        Senin - Sabtu: 9:00 - 17:00
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-globe "></i>
+                                        Map Direction
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="w3-submit text-right">
-                                <button class="btn btn-style btn-primary">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+                        </div>
+                        <div class="accordion-item">
+                            <h4 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    #03. Sidoarjo - Jawa Timur
+                                </button>
+                            </h4>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <h4 class="title-w3l-adinf mb-3">Alamat Kantor</h4>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-map-marker-alt"></i>
+                                        Pesona Permata Gading 2 Blok G No 10 Lingkar Timur<br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bluru Kidul, Sidoarjo
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="fas fa-envelope"></i>
+                                        bumindo9@gmail.com
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-phone-alt"></i>
+                                        031 9970 0441
+                                        </p>
+                                    </div>
+                                    <div class="address-grid my-2">
+                                        <p><i class="far fa-clock"></i>
+                                        Senin - Sabtu: 9:00 - 17:00
+                                        </p>
+                                    </div>
+                                    <div class="address-grid">
+                                        <p><i class="fas fa-globe "></i>
+                                        Map Direction
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                        </form>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

@@ -22621,11 +22621,11 @@ h3.post-content-title {
 
 .map-content-5 {
     position: absolute;
-    right: 10%;
-    top: 20%;
+    right: 1%;
+    top: 2%;
     background: var(--bg-color);
     border-radius: var(--border-radius);
-    padding: 40px;
+    padding: 10px;
 }
 
 h4.title-w3l-adinf {

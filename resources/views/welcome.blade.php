@@ -214,3 +214,99 @@
                             </div>
                         </div>
                     </div>
+
+<!--/w3-grids-->
+<section class="w3l-passion-mid-sec py-5">
+        <div class="container py-md-5 py-3">
+                <div class="row w3l-passion-mid-grids">
+
+                    <div class="col-lg-6 passion-grid-item-info pe-lg-5 mb-lg-0 mb-5">
+                        <h6 class="title-subw3hny mb-1">Secure courier</h6>
+                        <h3 class="title-w3l mb-4">Secure courier for small & big packages</h3>
+                        <p class="mt-3 pe-lg-5">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in
+                            ligula. Semper at tempufddfel.Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia
+                            cum ex ipsam autem!earum sequi amet.</p>
+                        <div class="w3banner-content-btns">
+                            <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-lg-5 mt-4 me-2">Learn More </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info ps-lg-4">
+                        <div class="w3lgrids-1 box-wrap">
+                            <div class="icon">
+                                <i class="fas fa-truck-loading"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="{{ route('services') }}" class="title-head mb-3">Tracking Is Easy</a></h4>
+                                <p class="text-para mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula tempufddfel.</p>
+                            </div>
+                        </div>
+                        <div class="w3lgrids-1 box-wrap mt-4">
+                            <div class="icon">
+                                <i class="fas fa-boxes"></i>
+                            </div>
+                            <div class="icon-text">
+                                <h4><a href="{{ route('services') }}" class="title-head mb-3">Multiple Warehouses</a></h4>
+                                <p class="text-para mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula tempufddfel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!--//w3-grids-->
+
+    <!--/video-->
+    <section class="w3l-index5 py-5" id="video">
+        <div class="container py-md-5 py-3">
+            <div class="row bottom-ab-grids align-items-center">
+                <div class="w3l-video-left col-lg-6 mb-lg-0 mb-5">
+                    <!-- /home-page-video-popup-->
+                    <div class="position-relative mt-5">
+                        <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
+                            <span class="video-play-icon">
+                                <span class="fa fa-play"></span>
+                            </span>
+                        </a>
+                        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                            <iframe src="https://player.vimeo.com/video/395483299?h=f7c7d5cb59" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+						<!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+                    </div>
+                    <!-- //home-page-video-popup-->
+                </div>
+                <div class="w3ab-left-top col-lg-6 mt-lg-0 mt-5 ps-lg-5">
+                    <h6 class="title-subw3hny mb-1">Fastest Courier Services</h6>
+                    <h3 class="title-w3l two mb-2">We provide the best and fastest courier services nowadays</h3>
+                    <p class="my-3"> Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel.Lorem ipsum dolor sit, amet consectetur ante ipsum elit. </p>
+                    <p class="my-3"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                        Nulla mollis dapibus nunc.</p>
+                    <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-4">Learn More </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//video-->
+
+    <!--/w3l-newsletter-->
+    <section class="w3l-newsletter py-5">
+        <div class="container py-sm-5">
+            <div class="uphny-w3l-newsletter-inf">
+                <div class="row uphny-w3l-newsletter align-items-center">
+                    <div class="col-lg-6 w3l-newsletter-left text-left">
+                        <h3 class="titlehny">Don't miss our future updates! Get subscribed today!</h3>
+                    </div>
+                    <div class="col-lg-6 w3l-newsletter-form ps-lg-5 mt-lg-0 mt-md-5 mt-4">
+                        <form action="#" method="post" class="subscribe-wthree">
+                            <div class="flex-wrap subscribe-wthree-field">
+                                <input class="form-control" type="email" placeholder="Type Your Email Address" name="email" required="">
+                                <button class="btn btn-style btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//w3l-newsletter-->

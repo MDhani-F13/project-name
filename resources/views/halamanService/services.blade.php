@@ -20,13 +20,13 @@
                             <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">About</a>
+                            <a class="nav-link" href="{{ route('about') }}">Tentang</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="{{ route('services') }}">Services</a>
+                            <a class="nav-link active" href="{{ route('services') }}">Layanan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                            <a class="nav-link" href="{{ route('contact') }}">Kontak</a>
                         </li>
                     </ul>
                     <!--/search-->
@@ -233,7 +233,7 @@
                 </div>
 
                 <div id="moreService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
-                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-more-btn">Show More</a>
+                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-more-btn">Tampilkan Lebih</a>
                 </div>
 
             <div id="moreServiceContent" style="display: none;">
@@ -300,7 +300,7 @@
                 </div>
 
                 <div id="lessService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
-                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-less-btn">Show Less</a>
+                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-less-btn">Sembunyikan</a>
                 </div>
             </div>
             </div>
