@@ -26,52 +26,46 @@
 
                         <div class="col-lg-7 sub-two-right">
                             <div class="row">
+                            <h6>REP OFFICE </h6>
                                 <div class="col-lg-4 sub-two-right">
-                                    <h6>Who We Are</h6>
                                     <ul>
-                                        <li><a href="{{ route('about') }}">About Us</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">BANDUNG</p>
                                         </li>
-                                        <li><a href="{{ route('about') }}"> Our Team</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">MAKASAR</p>
                                         </li>
-                                        <li><a href="#news">New & Media</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">BALIK PAPAN</p>
                                         </li>
-                                        <li><a href="#case"> Case Studies</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">PONTIANAK</p>
                                         </li>
-                                        <li><a href="contact.html"> Work With Us</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">SURABAYA</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4 sub-two-right">
-                                    <h6>What We Do</h6>
                                     <ul>
-                                        <li><a href="#warehousing"> Warehousing</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">BALI</p>
                                         </li>
-                                        <li><a href="#air">Air Freight</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">LOMBOK - NTB</p>
                                         </li>
-                                        <li><a href="#ocean">Ocean Freight</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">NTT</p>
                                         </li>
-                                        <li><a href="#road">Road Freight</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">SUMATERA</p>
                                         </li>
-                                        <li><a href="#supply">Supply Chain</a>
-                                        </li>
-                                        <li><a href="#packaging">Packing</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">SULAWESI</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-4 sub-two-right">
-                                    <h6>Company</h6>
                                     <ul>
-                                        <li><a href="#request">Request a Freight</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">KALIMANTAN</p>
                                         </li>
-                                        <li><a href="#track">Track & Trace</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">PAPUA</p>
                                         </li>
-                                        <li><a href="#job"> Job Application</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">SEMARANG</p>
                                         </li>
-                                        <li><a href="#posts">News</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">BATAM</p>
                                         </li>
-                                        <li><a href="#support"> Support 24/7</a>
-                                        </li>
-                                        <li><a href="#story"> User Stories</a>
+                                        <li><i class="fas fa-angle-double-right me-2"></i><p style="display: inline;">SINGAPURA</p>
                                         </li>
                                     </ul>
                                 </div>

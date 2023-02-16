@@ -95,15 +95,24 @@
     <script>
     function toggleContent() {
         const content = document.getElementById("moreContent");
+        const contentawal = document.getElementById("content");
         const lessbutton = document.getElementById("lessbutton");
         const morebutton = document.getElementById('morebutton');
 
         if (content.style.display === "none") {
             content.style.display = "block";
+            setTimeout(function() {
+                content.scrollIntoView();
+            }, 25);
+
             morebutton.style.display = 'none';
             lessbutton.style.display = 'block';
         } else {
             content.style.display = "none";
+            setTimeout(function() {
+                contentawal.scrollIntoView();
+            }, 25);
+
             morebutton.style.display = 'block';
             lessbutton.style.display = 'none';   
         }
@@ -111,15 +120,24 @@
     
     function toggleserviceContent(){
         const content = document.getElementById("moreServiceContent");
+        const contentservice = document.getElementById("serviceContent");
         const lessbutton = document.getElementById("lessService");
         const morebutton = document.getElementById('moreService');
 
         if (content.style.display === "none") {
             content.style.display = "block";
+            setTimeout(function() {
+                content.scrollIntoView();
+            }, 25);
+
             morebutton.style.display = 'none';
             lessbutton.style.display = 'block';
         } else {
             content.style.display = "none";
+            setTimeout(function() {
+                contentservice.scrollIntoView();
+            }, 25);
+            
             morebutton.style.display = 'block';
             lessbutton.style.display = 'none';   
         }
@@ -137,7 +155,7 @@
         link1.addEventListener("click", function() {
         content1.classList.remove("hide");
         setTimeout(function() {
-        content1.scrollIntoView();
+            content1.scrollIntoView();
         }, 25);
 
         content.classList.add("hide");
@@ -148,7 +166,7 @@
         link2.addEventListener("click", function() {
         content2.classList.remove("hide");
         setTimeout(function() {
-        content2.scrollIntoView();
+            content2.scrollIntoView();
         }, 25);   
 
         content1.classList.add("hide");
@@ -159,7 +177,7 @@
         link3.addEventListener("click", function() {
         content3.classList.remove("hide");
         setTimeout(function() {
-        content3.scrollIntoView();
+            content3.scrollIntoView();
         }, 25);  
 
         content1.classList.add("hide");

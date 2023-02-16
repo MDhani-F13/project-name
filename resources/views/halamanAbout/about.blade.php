@@ -205,7 +205,7 @@
     </section>
     <!--//w3l-join-main-->
     <!--/team-sec-->
-    <section class="w3l-team-main team py-5" id="team">
+    <section id="content" class="w3l-team-main team py-5" id="team">
         <div class="container py-lg-5">
             <div class="title-content text-center mb-2">
                 <h6 class="title-subw3hny mb-1">Tim Kami</h6>

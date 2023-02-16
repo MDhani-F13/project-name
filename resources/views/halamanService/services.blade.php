@@ -111,7 +111,7 @@
                             <li><span class="fas fa-check"></span> Layanan International</li>
                             <li><span class="fas fa-check"></span> Tenaga Ahli dan Profesional</li>
                         </ul>
-                        
+                        <a href="{{ route('contact') }}" class="btn btn-style btn-primary mt-4 ms-3">Hubungi Kami</a>
                     </div>
                 </div>
             </div>
@@ -187,122 +187,123 @@
     </section>
     <!--//features-section -->
     <!--/w3l-grids-->
-    <section class="w3l-witemshny-main py-5">
+    <section id="serviceContent" class="w3l-witemshny-main py-5">
         <div class="container py-md-4">
             <!--/row-1-->
-            <div class="witemshny-grids row">
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                <div class="witemshny-grids row">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Pengiriman Domestik Udara</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Pengiriman Domestik Udara</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Angkutan Domestik Laut dan Darat</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Angkutan Domestik Laut dan Darat</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img"> Jasa Inklaring Pelabuhan</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img"> Jasa Inklaring Pelabuhan</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Pergudangan dan Distribusi</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Pergudangan dan Distribusi</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                 </div>
 
                 <div id="moreService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
                     <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-more-btn">Tampilkan Lebih</a>
                 </div>
-
+            
             <div id="moreServiceContent" style="display: none;">
-            <div class="witemshny-grids row">
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                <div class="witemshny-grids row">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Domestik dan International Movers/Pindahan Kantor, Rumah, Gudang</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Domestik dan International Movers/Pindahan Kantor, Rumah, Gudang</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Exhibition Forwarding</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Exhibition Forwarding</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Project Cargo Handling</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Project Cargo Handling</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Inbound/Import</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Inbound/Import</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Kurir</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Kurir</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
-                <div class="col-md-3 col-6 product-incfhny mt-4">
-                    <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
-                        <div class="witemshny-inf">
+                    <div class="col-md-3 col-6 product-incfhny mt-4">
+                        <div class="weitemshny-grid oposition-relative">
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <div class="witemshny-inf">
+                            </div>
                         </div>
+                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Rental Armada</a>
+                        </h4>
+                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Rental Armada</a>
-                    </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                </div>
 
-                <div id="lessService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
-                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-less-btn">Sembunyikan</a>
+                    <div id="lessService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
+                        <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-less-btn">Sembunyikan</a>
+                    </div>
                 </div>
-            </div>
             </div>
             <!--//row-1-->
         </div>
