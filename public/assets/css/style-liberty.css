@@ -242,6 +242,12 @@ a {
 
 }
 
+.map {
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
 a:hover {
     color: var(--primary-color);
 }
@@ -5917,6 +5923,10 @@ fieldset:disabled .btn {
 
 .toast.hide {
     display: none
+}
+
+.hide {
+    display: none;
 }
 
 .toast-container {

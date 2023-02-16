@@ -121,7 +121,7 @@
                                     </div>
                                     <div class="address-grid my-2">
                                         <p><i class="fas fa-envelope"></i>
-                                        central@bumindo..com
+                                        central@bumindo.com
                                         </p>
                                     </div>
                                     <div class="address-grid">
@@ -136,7 +136,7 @@
                                     </div>
                                     <div class="address-grid">
                                         <p><i class="fas fa-globe "></i>
-                                        Map Direction
+                                        <a style="display: inline;" href="#" id="map1_direction">Map Direction</a>
                                         </p>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@
                                     </div>
                                     <div class="address-grid">
                                         <p><i class="fas fa-globe "></i>
-                                        Map Direction
+                                        <a style="display: inline;" href="#" id="map2_direction">Map Direction</a>
                                         </p>
                                     </div>
                                 </div>
@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="address-grid">
                                         <p><i class="fas fa-globe "></i>
-                                        Map Direction
+                                        <a style="display: inline;" href="#" id="map3_direction">Map Direction</a>
                                         </p>
                                     </div>
                                 </div>
@@ -224,6 +224,90 @@
         </div>
         <!-- //contacts-5-grid -->
     </div>
+    <div id="map-content">
+    <div class="contacts-sub-5">
+        <div class="contacts-mapw3 position-relative">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.2176843537673!2d112.73738753543907!3d-7.4480564426829385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e6bfeeafcca7%3A0xe2d59d3ea00309b7!2sPesona%20Permata%20Gading%202!5e0!3m2!1sen!2sid!4v1676344114113!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content-5">
+                <h4 class="title-w3l-adinf mb-3">Address Info</h4>
+                <div class="address-grid">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Bekasi - Pesona Metropolitan Ruko Gardenia Block RC 12 15<br>
+                    Jl. Raya Siliwangi KM.7, Bekasi 17116</p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:central@bumindo.com" class="link1">central@bumindo.com</a></p>
+
+                </div>
+                <div class="address-grid">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><a href="tel:(62-21) 2936 7577" class="link1">(62-21) 2936 7577 / (62-21) 2936 7578 (Fax)</a></p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="far fa-clock"></i>
+                    <p>Senin - Sabtu: 9:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="map1-content" class="hide">
+    <div class="contacts-sub-5">
+        <div class="contacts-mapw3 position-relative">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.2176843537673!2d112.73738753543907!3d-7.4480564426829385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e6bfeeafcca7%3A0xe2d59d3ea00309b7!2sPesona%20Permata%20Gading%202!5e0!3m2!1sen!2sid!4v1676344114113!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content-5">
+                <h4 class="title-w3l-adinf mb-3">Address Info</h4>
+                <div class="address-grid">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Bekasi - Pesona Metropolitan Ruko Gardenia Block RC 12 15<br>
+                    Jl. Raya Siliwangi KM.7, Bekasi 17116</p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:central@bumindo.com" class="link1">central@bumindo.com</a></p>
+
+                </div>
+                <div class="address-grid">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><a href="tel:(62-21) 2936 7577" class="link1">(62-21) 2936 7577 / (62-21) 2936 7578 (Fax)</a></p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="far fa-clock"></i>
+                    <p>Senin - Sabtu: 9:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="map2-content" class="hide">
+    <div class="contacts-sub-5">
+        <div class="contacts-mapw3 position-relative">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.2176843537673!2d112.73738753543907!3d-7.4480564426829385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e6bfeeafcca7%3A0xe2d59d3ea00309b7!2sPesona%20Permata%20Gading%202!5e0!3m2!1sen!2sid!4v1676344114113!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-content-5">
+                <h4 class="title-w3l-adinf mb-3">Address Info</h4>
+                <div class="address-grid">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Sukoharjo - Ds. Bacem RT. 04/05 Kel. Grogol, Kec Grogol.</p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="#" class="link1">-</a></p>
+
+                </div>
+                <div class="address-grid">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><a href="tel:0813 2890 1090" class="link1">0813 2890 1090</a></p>
+                </div>
+                <div class="address-grid my-2">
+                    <i class="far fa-clock"></i>
+                    <p>Senin - Sabtu: 9:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="map3-content" class="hide">
     <div class="contacts-sub-5">
         <div class="contacts-mapw3 position-relative">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306.2176843537673!2d112.73738753543907!3d-7.4480564426829385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e6bfeeafcca7%3A0xe2d59d3ea00309b7!2sPesona%20Permata%20Gading%202!5e0!3m2!1sen!2sid!4v1676344114113!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -235,35 +319,21 @@
                 </div>
                 <div class="address-grid my-2">
                     <i class="fas fa-envelope"></i>
-                    <p><a href="mailto:mail@example.com" class="link1">mail@example.com</a></p>
+                    <p><a href="mailto:mail@example.com" class="link1">bumindo9@gmail.com</a></p>
 
                 </div>
                 <div class="address-grid">
                     <i class="fas fa-phone-alt"></i>
-                    <p><a href="tel:+12 324-016-695" class="link1">+12 324-016-695</a></p>
+                    <p><a href="tel:031 9970 0441" class="link1">031 9970 0441</a></p>
                 </div>
                 <div class="address-grid my-2">
                     <i class="far fa-clock"></i>
                     <p>Senin - Sabtu: 9:00 - 17:00</p>
                 </div>
-                <div class="address-grid">
-                    <p>Closed on Sunday</p>
-                </div>
             </div>
         </div>
     </div>
-    <!--Script to show Map yang dibutuhkan-->
-    <script>
-        $(document).ready(function() {
-            $(".map").hide();
-            $(".show-map").click(function(e) {
-            e.preventDefault();
-            var mapId = $(this).data("map");
-            $(".map").hide();
-            $("#" + mapId).show();
-        });
-        });
-    </script>
+    </div>
 
     @include('layout.footer')
         <!-- Js scripts -->

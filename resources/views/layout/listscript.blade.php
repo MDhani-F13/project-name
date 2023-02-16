@@ -91,12 +91,12 @@
     </script>
     <!--/Done Carousel -->
 
-    <!--Show More Pekerja --> 
+    <!--Show/Hide Script --> 
     <script>
     function toggleContent() {
-        var content = document.getElementById("moreContent");
-        var lessbutton = document.getElementById("lessbutton");
-        var morebutton = document.getElementById('morebutton');
+        const content = document.getElementById("moreContent");
+        const lessbutton = document.getElementById("lessbutton");
+        const morebutton = document.getElementById('morebutton');
 
         if (content.style.display === "none") {
             content.style.display = "block";
@@ -110,9 +110,9 @@
     }
     
     function toggleserviceContent(){
-        var content = document.getElementById("moreServiceContent");
-        var lessbutton = document.getElementById("lessService");
-        var morebutton = document.getElementById('moreService');
+        const content = document.getElementById("moreServiceContent");
+        const lessbutton = document.getElementById("lessService");
+        const morebutton = document.getElementById('moreService');
 
         if (content.style.display === "none") {
             content.style.display = "block";
@@ -124,10 +124,50 @@
             lessbutton.style.display = 'none';   
         }
     }
-    </script>
 
-    
-    <!--/Done Show More Pekerja -->
+        const link1 = document.getElementById("map1_direction");
+        const link2 = document.getElementById("map2_direction");
+        const link3 = document.getElementById("map3_direction");
+
+        const content = document.getElementById("map-content");
+        const content1 = document.getElementById("map1-content");
+        const content2 = document.getElementById("map2-content");
+        const content3 = document.getElementById("map3-content");
+
+        link1.addEventListener("click", function() {
+        content1.classList.remove("hide");
+        setTimeout(function() {
+        content1.scrollIntoView();
+        }, 25);
+
+        content.classList.add("hide");
+        content2.classList.add("hide");
+        content3.classList.add("hide");
+        });
+
+        link2.addEventListener("click", function() {
+        content2.classList.remove("hide");
+        setTimeout(function() {
+        content2.scrollIntoView();
+        }, 25);   
+
+        content1.classList.add("hide");
+        content.classList.add("hide");
+        content3.classList.add("hide");
+        });
+
+        link3.addEventListener("click", function() {
+        content3.classList.remove("hide");
+        setTimeout(function() {
+        content3.scrollIntoView();
+        }, 25);  
+
+        content1.classList.add("hide");
+        content.classList.add("hide");
+        content2.classList.add("hide");
+        });
+    </script>
+    <!--/Done Show/Hide Script -->
 
     <!-- disable body scroll which navbar is in active -->
     <script>
