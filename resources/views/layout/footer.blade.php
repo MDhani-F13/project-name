@@ -5,7 +5,7 @@
                 <div class="right-side">
                     <div class="row footer-hny-grids sub-columns">
                         <div class="col-lg-5 sub-one-left pe-lg-5">
-                            <h2><a class="navbar-brand" href="{{ route('home') }}">
+                            <h2><a class="navbar-brand" href="{{ route('index') }}">
                                     <i class="fas fa-truck-moving"></i> Bumindo
                                 </a></h2>
                             <p class="footer-phny mt-3">

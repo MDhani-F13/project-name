@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 /*Route untuk ke Halaman Utama */
 Route::get('/', function () {
-    return view('halamanUtama/home');
-})->name('home');
+    return view('halamanUtama/index');
+})->name('index');
 
 /*Route untuk ke Halaman Service */
 Route::get('/services', function () {

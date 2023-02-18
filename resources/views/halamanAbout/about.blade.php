@@ -7,7 +7,7 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
-                <h1><a class="navbar-brand" href="{{ route('home') }}">
+                <h1><a class="navbar-brand" href="{{ route('index') }}">
                         <i class="fas fa-truck-moving"></i> Bumindo
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
+                            <a class="nav-link" aria-current="page" href="{{ route('index') }}">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route('about') }}">Tentang</a>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="w3breadcrumb-right">
                         <ul class="breadcrumbs-custom-path">
-                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li><a href="{{ route('index') }}">Home</a></li>
                             <li class="active"><span class="fas fa-angle-double-right mx-2"></span> About Us</li>
                         </ul>
                     </div>
