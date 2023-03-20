@@ -7,8 +7,8 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
-                <h1><a class="navbar-brand" href="{{ route('index') }}">
-                        <i class="fas fa-truck-moving"></i> Bumindo
+            <h1><a class="navbar-brand" href="{{ route('index') }}">
+                        <img src="{{ asset('assets/images/Logo_Bumindo.png') }}" alt="Bumindo" tittle="Bumindo">
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -91,7 +91,7 @@
             <div class="row">
                 <div class="col-lg-6 pe-lg-5">
                     <div class="w3l-abouthny-img">
-                        <img src="{{ asset('assets/images/ab.jpg') }}" alt="" class="img-fluid radius-image">
+                        <img src="{{ asset('assets/images/IMG-20220310-WA0071.jpg') }}" alt="" class="img-fluid radius-image">
                     </div>
                 </div>
                 <div class="col-lg-6 mt-lg-0 mt-5">
@@ -104,7 +104,6 @@
                             cargo dalam penanganan mega project industri.
                         </p>
                         <ul class="w3l-right-book w3l-right-book-grid mt-md-5 mt-4">
-                            <li><span class="fas fa-check"></span> Harga Transparan dan Aman</li>
                             <li><span class="fas fa-check"></span> Gudang Penyimpanan</li>
                             <li><span class="fas fa-check"></span> Keamanan Barang Terjamin</li>
                             <li><span class="fas fa-check"></span> Pengiriman Cepat dan Efisien</li>
@@ -130,19 +129,10 @@
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
                         <div class="grids-1 box-wrap">
                             <div class="icon">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <h4><a href="#service" class="title-head">Harga Transparan dan Aman</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
-                        <div class="grids-1 box-wrap">
-                            <div class="icon">
                                 <i class="fas fa-warehouse"></i>
                             </div>
                             <h4><a href="#service" class="title-head">Gudang Penyimpanan</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Gudang penyimpanan kami menawarkan ruang yang luas, aman, dan terorganisir untuk semua jenis barang. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -151,7 +141,7 @@
                                 <i class="fas fa-truck-loading"></i>
                             </div>
                             <h4><a href="#service" class="title-head">Keamanan Barang Terjamin</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Kami memberikan jaminan Keamanan Barang Terjamin untuk setiap pengiriman Anda dengan pengawasan yang ketat. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -160,7 +150,7 @@
                                 <i class="fas fa-clock"></i>
                             </div>
                             <h4><a href="#service" class="title-head">Pengiriman Cepat dan Efisien</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Layanan Pengiriman Cepat dan Efisien tanpa mengurangi kualitas dan keamanan serta pengiriman yang tepat waktu, akurat, dan efektif. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -169,7 +159,7 @@
                                 <i class="fas fa-people-carry"></i>
                             </div>
                             <h4><a href="#service" class="title-head">Layanan International</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Layanan Internasional kami mencakup berbagai jenis pengiriman, dengan dukungan dari mitra logistik yang terpercaya di seluruh dunia. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -178,7 +168,7 @@
                                 <i class="fas fa-user-tie"></i>
                             </div>
                             <h4><a href="#service" class="title-head">Tenaga Ahli dan Profesional</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Keunggulan dari kami adalah tenaga ahli dan profesional yang kami miliki, mereka akan memberikan pelayanan yang maksimal untuk anda. </p>
                         </div>
                     </div>
                 </div>
@@ -190,48 +180,50 @@
     <section id="serviceContent" class="w3l-witemshny-main py-5">
         <div class="container py-md-4">
             <!--/row-1-->
-                <div class="witemshny-grids row">
-                    <div class="col-md-3 col-6 product-incfhny mt-4">
-                        <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
-                            <div class="witemshny-inf">
-                            </div>
+            <div class="witemshny-grids row">
+                <div class="col-md-3 col-6 product-incfhny mt-4">
+                    <div class="weitemshny-grid oposition-relative">
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <div class="witemshny-inf">
                         </div>
-                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Pengiriman Domestik Udara</a>
-                        </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
                     </div>
-                    <div class="col-md-3 col-6 product-incfhny mt-4">
-                        <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
-                            <div class="witemshny-inf">
-                            </div>
-                        </div>
-                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Angkutan Domestik Laut dan Darat</a>
-                        </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                    </div>
-                    <div class="col-md-3 col-6 product-incfhny mt-4">
-                        <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
-                            <div class="witemshny-inf">
-                            </div>
-                        </div>
-                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img"> Jasa Inklaring Pelabuhan</a>
-                        </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                    </div>
-                    <div class="col-md-3 col-6 product-incfhny mt-4">
-                        <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
-                            <div class="witemshny-inf">
-                            </div>
-                        </div>
-                        <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Pergudangan dan Distribusi</a>
-                        </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
-                    </div>
+                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Pengiriman Domestik Udara</a>
+                    </h4>
+                    <p class="mt-md-2">Kami menawarkan Jasa Pengiriman Domestik Udara yang memungkinkan Anda mengirimkan barang dengan cepat dan mudah ke berbagai daerah di dalam negeri.</p>
                 </div>
+                <div class="col-md-3 col-6 product-incfhny mt-4">
+                    <div class="weitemshny-grid oposition-relative">
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <div class="witemshny-inf">
+                        </div>
+                    </div>
+                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Angkutan Domestik Laut dan Darat</a>
+                    </h4>
+                    <p class="mt-md-2">Kami menawarkan Jasa Angkutan Domestik Laut dan Darat yang memungkinkan Anda mengirimkan barang dengan cepat dan efisien ke berbagai daerah di dalam negeri.
+.</p>
+                </div>
+                <div class="col-md-3 col-6 product-incfhny mt-4">
+                    <div class="weitemshny-grid oposition-relative">
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <div class="witemshny-inf">
+                        </div>
+                    </div>
+                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img"> Jasa Inklaring Pelabuhan</a>
+                    </h4>
+                    <p class="mt-md-2">Kami menawarkan Jasa Inklaring Pelabuhan yang memastikan barang Anda dapat lolos pemeriksaan bea cukai dan dokumen administrasi di pelabuhan dengan cepat dan efisien.</p>
+                </div>
+                <div class="col-md-3 col-6 product-incfhny mt-4">
+                    <div class="weitemshny-grid oposition-relative">
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <div class="witemshny-inf">
+                        </div>
+                    </div>
+                    <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Pergudangan dan Distribusi</a>
+                    </h4>
+                    <p class="mt-md-2">Kami menawarkan layanan Pergudangan dan Distribusi dengan jaringan pergudangan yang luas dan dilengkapi dengan perlengkapan yang memadai untuk memudahkan pelanggan dalam mengakses dan mengelola persediaan barang.</p>
+                </div>
+
+            </div>
 
                 <div id="moreService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
                     <button class="btn btn-style btn-primary mt-4" onclick= "toggleserviceContent()" id="show-more-btn">Tampilkan Lebih</a>
@@ -247,7 +239,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Domestik dan International Movers/Pindahan Kantor, Rumah, Gudang</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami menawarkan layanan pindahan yang andal dan efisien untuk memastikan perpindahan kantor, rumah, atau gudang Anda berjalan dengan lancar, baik itu di dalam negeri maupun internasional.</p>
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
@@ -257,7 +249,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Exhibition Forwarding</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami menyediakan solusi pengiriman yang aman dan andal untuk memastikan barang pameran Anda tiba tepat waktu dan dalam kondisi baik.</p>
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
@@ -267,7 +259,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Project Cargo Handling</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami menggunakan peralatan khusus untuk menangani pengiriman barang proyek, termasuk kran, forklift, dan truk berat yang dirancang khusus untuk mengangkut barang berukuran besar.</p>
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
@@ -277,7 +269,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Inbound/Import</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami memiliki pengalaman dalam mengurus dokumen impor yang diperlukan untuk memastikan barang impor Anda melewati proses pabean dengan lancar.</p>
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
@@ -287,7 +279,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Kurir</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami menyediakan layanan kurir yang cepat dan andal untuk mengirimkan dokumen dan paket Anda ke berbagai tujuan.</p>
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
@@ -297,7 +289,7 @@
                         </div>
                         <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Rental Armada</a>
                         </h4>
-                        <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                        <p class="mt-md-2">Kami menyediakan layanan sewa armada untuk memenuhi kebutuhan transportasi bisnis atau pribadi Anda.</p>
                     </div>
 
                     <div id="lessService" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">

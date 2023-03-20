@@ -7,8 +7,8 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
-                <h1><a class="navbar-brand" href="{{ route('index') }}">
-                        <i class="fas fa-truck-moving"></i> Bumindo
+            <h1><a class="navbar-brand" href="{{ route('index') }}">
+                        <img src="{{ asset('assets/images/Logo_Bumindo.png') }}" alt="Bumindo" tittle="Bumindo">
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -64,7 +64,7 @@
     </header>
     <!--//Header-->
     <!--/inner-page-->
-    <div class="inner-banner py-5">
+    <div class="inner-banner3 py-5">
         <section class="w3l-breadcrumb text-left py-sm-5 ">
             <div class="container">
                 <div class="w3breadcrumb-gids">
@@ -110,7 +110,7 @@
                     </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 text-end mt-lg-0 mt-5 position-relative">
-                    <img src="{{ asset('assets/images/ab.jpg') }}" alt="" class="img-fluid radius-image">
+                    <img src="{{ asset('assets/images/IMG-20220310-WA0057.jpg') }}" alt="" class="img-fluid radius-image">
                     <div class="imginfo__box">
                         <h6 class="imginfo__title">15</h6>
                         <p>Tahun Pengalaman</p>
@@ -120,30 +120,29 @@
         </div>
     </section>
 	<!--//about-page-->
-    <!--/w3-grids-->
-    <section class="w3l-stats-section py-5 pt-0" id="stats">
-        <div class="container py-md-5 pt-0">
-            <div class="w3l-stats-inner-inf">
-                <div class="row stats-con">
-                    <div class="col-lg-3 col-6 stats_info counter_grid">
-                        <p class="counter">2500 </p>
-                        <h3>Produk Terkirim</h3>
-                    </div>
-                    <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-4">
-                        <p class="counter">1280 </p>
-                        <h3>Transaksi Sukses</h3>
-                    </div>
-                    <div class="col-lg-3 col-6 stats_info counter_grid mt-lg-0 mt-4">
-                        <p class="counter">3020</p>
-                        <h3>Pelanggan Puas</h3>
-                    </div>
+     <!--/w3l-join-main-->
+     <section class="w3l-join-main py-5">
+        <div class="container py-md-5">
+            <div class="w3l-project-in">
+                <div class="row bottom-info text-left">
+                    <div class="col-lg-7 w3l-project-in-left pe-lg-5">
+                        <h6 class="title-subw3hny mb-2">Cek Layanan Kami</h6>
+                        <h3 class="title-w3l two mb-2">Mitra terbaik untuk pendistribusian produk anda.
+                        </h3>
 
+
+                    </div>
+                    <div class="col-lg-5 w3l-project-in-right">
+                        <div class="w3banner-content-btns">
+                            <a href="{{ route('services') }}" class="btn btn-style btn-white mt-4">Cek Layanan</a>
+                            <a href="{{ route('contact') }}" class="btn btn-style btn-primary mt-4 ms-3">Hubungi Kami</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--//w3-grids-->
-
+    <!--//w3l-join-main-->
     <!--/faq-section-->
     <div class="w3l-faq-block py-5" id="faq">
         <div class="container content-gd py-lg-5">
@@ -176,321 +175,6 @@
                     <p class="">5. Menyediakan transportasi angkutan yang aman, efisien, dan menguntungkan yang dijalankan secara profesional.
                     </p>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- //faq-section -->
-
-    <!--/w3l-join-main-->
-    <section class="w3l-join-main py-5">
-        <div class="container py-md-5">
-            <div class="w3l-project-in">
-                <div class="row bottom-info text-left">
-                    <div class="col-lg-7 w3l-project-in-left pe-lg-5">
-                        <h6 class="title-subw3hny mb-2">Cek Layanan Kami</h6>
-                        <h3 class="title-w3l two mb-2">Mitra terbaik untuk pendistribusian produk anda.
-                        </h3>
-
-
-                    </div>
-                    <div class="col-lg-5 w3l-project-in-right">
-                        <div class="w3banner-content-btns">
-                            <a href="{{ route('services') }}" class="btn btn-style btn-white mt-4">Cek Layanan</a>
-                            <a href="{{ route('contact') }}" class="btn btn-style btn-primary mt-4 ms-3">Hubungi Kami</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//w3l-join-main-->
-    <!--/team-sec-->
-    <section id="content" class="w3l-team-main team py-5" id="team">
-        <div class="container py-lg-5">
-            <div class="title-content text-center mb-2">
-                <h6 class="title-subw3hny mb-1">Tim Kami</h6>
-                <h3 class="title-w3l">Siapa yang bekerja untuk kami.</h3>
-            </div>
-            <div class="row team-row justify-content-center">
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team1.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Lawrence Petrie</a>
-                        <p>Selling Agent</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team3.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Jack Peters</a>
-                        <p>Selling Agent</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team2.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Anna Phillips</a>
-                        <p>Selling Agent</p>
-
-                    </div>
-                </div>
-                <!-- end team member -->
-            </div>
-
-            <div id="morebutton" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
-                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleContent()" id="show-more-btn">Tampilkan Lebih</a>
-            </div>
-            <div id="moreContent" style="display: none;">
-            <div class="row team-row justify-content-center">
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team1.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Lawrence Petrie</a>
-                        <p>Selling Agent</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team3.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Jack Peters</a>
-                        <p>Selling Agent</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-                <div class="col-lg-4 col-6 team-wrap mt-lg-5 mt-4">
-                    <div class="team-member text-center">
-                        <div class="team-img">
-                            <img src="{{ asset('assets/images/team2.jpg') }}" alt="" class="radius-image">
-                            <div class="overlay-team">
-                                <div class="team-details text-center">
-                                    <div class="socials mt-20">
-                                        <a href="#url">
-                                            <span class="fab fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span class="fab fa-linkedin-in"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" class="team-title">Anna Phillips</a>
-                        <p>Selling Agent</p>
-
-                    </div>
-                </div>
-                <!-- end team member -->
-                <div id="lessbutton" class="w3l-md-btn mx-auto text-center mt-md-5 mt-4">
-                    <button class="btn btn-style btn-primary mt-4" onclick= "toggleContent()" id="show-less-btn">Sembunyikan</a>
-                </div>
-            </div>
-            </div>
-            
-
-        </div>
-    </section>
-    <!--//team-sec-->
-    <!--/faq-section-->
-    <div class="w3l-faq-block py-5" id="faq">
-        <div class="container content-gd py-lg-5">
-            <div class="row mt-3">
-                <div class="col-lg-6 faqw3-right pe-lg-5">
-                    <div class="faqw3content text-left">
-                        <h6 class="title-subw3hny mb-1 text-left">Client Kami</h6>
-                        <h3 class="title-w3l mb-2">Daftar Pelanggan</h3>
-                    </div>
-                    <p class="mb-3">Berikut adalah daftar pelanggan yang sudah menggunakan jasa - jasa yang disediakan oleh
-                        PT BUMINDO SARANA TRANSPORTASI.
-                    </p>
-                    <p class="">Kami harap anda dapat menjadi pelanggan kami yang selanjutnya. Kami tunggu pesanan anda.
-                    </p>
-                </div>
-                <div class="col-lg-6 faqw3-left">
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    #01. List Pelanggan
-                                </button>
-                            </h4>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PT DIAN CIPTA PERKASA</li>
-                                    <li class="list-group-item">PT TELKOM AKSES</li>
-                                    <li class="list-group-item">PT WIJAYA KARYA Tbk</li>
-                                    <li class="list-group-item">PT BOILERMECH INDONESIA</li>
-                                    <li class="list-group-item">PT TELKOM (Persero)</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    #02. List Pelanggan
-                                </button>
-                            </h4>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PT BEHN MEYER CHEMICALS</li>
-                                    <li class="list-group-item">PT OTSUKA DISTRIBUTION INDONESIA</li>
-                                    <li class="list-group-item">PT TRIPOLA PANATA</li>
-                                    <li class="list-group-item">PT VOKSEL KABEL Tbk</li>
-                                    <li class="list-group-item">PT JEMBO KABEL</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    #03. List Pelanggan
-                                </button>
-                            </h4>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PT SATYA MITRA SURYA PERKASA</li>
-                                    <li class="list-group-item">PT SMART CAKRAWALA AVIATION</li>
-                                    <li class="list-group-item">PT UNICHEM CANDI INDONESIA</li>
-                                    <li class="list-group-item">PT SATWA JAWA</li>
-                                    <li class="list-group-item">PT MORA TELEMATIKA INDONESIA/MORATEL</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFourth">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
-                                    #04. List Pelanggan
-                                </button>
-                            </h4>
-                            <div id="collapseFourth" class="accordion-collapse collapse" aria-labelledby="headingFourth" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PT INTI GOC (Persero)</li>
-                                    <li class="list-group-item">PT KOMODO FOODS</li>
-                                    <li class="list-group-item">PT IMMANUEL AGAPE</li>
-                                    <li class="list-group-item">PT CIKARANG LISTRINDO</li>
-                                    <li class="list-group-item">EQUINOX</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h4 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    #05. List Pelanggan
-                                </button>
-                            </h4>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">PT ECOSAINS HAYATI</li>
-                                    <li class="list-group-item">PT MAGENTA BIOMEDIKA</li>
-                                    <li class="list-group-item">PT STRAIT LINER EXPRESS</li>
-                                    <li class="list-group-item">PT ASTI INDOGRAPH</li>
-                                    <li class="list-group-item">PT BUHLER INDONESIA</li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>

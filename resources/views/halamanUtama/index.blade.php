@@ -8,7 +8,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
                 <h1><a class="navbar-brand" href="{{ route('index') }}">
-                        <i class="fas fa-truck-moving"></i> Bumindo
+                        <img src="{{ asset('assets/images/Logo_Bumindo.png') }}" alt="Bumindo" tittle="Bumindo">
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -71,8 +71,8 @@
                 <div class="slider-info banner-view banner-top1">
                     <div class="container">
                         <div class="banner-info header-hero-19">
-                            <p class="w3hny-tag">Make the right move.</p>
-                            <h3 class="title-hero-19">Moving your products across all borders.</h3>
+                            <p class="w3hny-tag">Jangan salah pilih.</p>
+                            <h3 class="title-hero-19">Dapatkan pengiriman terbaik dengan layanan kami.</h3>
                             <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-4">Pelajari Lebih Lanjut</a>
 
                         </div>
@@ -84,8 +84,8 @@
                     <div class="container">
                         <div class="banner-info header-hero-19">
 
-                            <p class="w3hny-tag">Go smoothly with safety.</p>
-                            <h3 class="title-hero-19">We are here to move your business.</h3>
+                            <p class="w3hny-tag">Kirim aman, sampai terjamin.</p>
+                            <h3 class="title-hero-19">Melayani dengan sepenuh hati untuk kepuasan pelanggan.</h3>
                             <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-4">Pelajari Lebih Lanjut</a>
                         </div>
                     </div>
@@ -95,8 +95,8 @@
                 <div class="slider-info banner-view banner-top3">
                     <div class="container">
                         <div class="banner-info header-hero-19">
-                            <p class="w3hny-tag">Make the right move.</p>
-                            <h3 class="title-hero-19">Moving your products across all borders.</h3>
+                            <p class="w3hny-tag">Pengiriman anda, prioritas kami.</p>
+                            <h3 class="title-hero-19">Satu solusi untuk semua pengiriman Anda.</h3>
 
                             <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-4">Pelajari Lebih Lanjut</a>
                         </div>
@@ -107,8 +107,8 @@
                 <div class="slider-info banner-view banner-top4">
                     <div class="container">
                         <div class="banner-info header-hero-19">
-                            <p class="w3hny-tag">Go smoothly with safety.</p>
-                            <h3 class="title-hero-19">We are here to move your business.</h3>
+                            <p class="w3hny-tag">Jangan biarkan pengiriman menjadi masalah, percayakan pada kami.</p>
+                            <h3 class="title-hero-19">Jasa pengiriman cepat, andal, dan aman untuk kebutuhan bisnis dan personal Anda.</h3>
                             <a href="{{ route('about') }}" class="btn btn-style btn-primary mt-4">Pelajari Lebih Lanjut</a>
 
                         </div>
@@ -123,7 +123,7 @@
         <div class="container py-md-5 py-3">
             <div class="row w3home-ab-grids">
                 <div class="w3ab-right-top col-lg-6 pe-lg-5">
-                    <img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid radius-image">
+                    <img src="{{ asset('assets/images/IMG-20220310-WA0093_2.jpg') }}" alt=""  class="img-fluid radius-image">
                 </div>
                 <div class="w3ab-left-top col-lg-6 mt-lg-0 mt-4 pt-lg-0 pt-2">
                     <h6 class="title-subw3hny mb-1">Profil Perusahaan.</h6>
@@ -154,10 +154,10 @@
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
                         <div class="grids-1 box-wrap">
                             <div class="icon">
-                                <i class="fas fa-shield-alt"></i>
+                                <i class="fas fa-warehouse"></i>
                             </div>
-                            <h4><a href="{{ route('services') }}" class="title-head mb-3">Harga Transparan dan Aman</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <h4><a href="{{ route('services') }}" class="title-head mb-3">Gudang Penyimpanan</a></h4>
+                            <p class="text-para">Gudang penyimpanan kami menawarkan ruang yang luas, aman, dan terorganisir untuk semua jenis barang. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -166,7 +166,7 @@
                                 <i class="fas fa-clock"></i>
                             </div>
                             <h4><a href="{{ route('services') }}" class="title-head mb-3">Pengiriman Cepat dan Efisien</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Layanan Pengiriman Cepat dan Efisien tanpa mengurangi kualitas dan keamanan serta pengiriman yang tepat waktu, akurat, dan efektif. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
@@ -175,7 +175,7 @@
                                 <i class="fas fa-people-carry"></i>
                             </div>
                             <h4><a href="{{ route('services') }}" class="title-head mb-3">Layanan International</a></h4>
-                            <p class="text-para">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam. </p>
+                            <p class="text-para">Layanan Internasional kami mencakup berbagai jenis pengiriman, dengan dukungan dari mitra logistik yang terpercaya di seluruh dunia. </p>
                         </div>
                     </div>
                 </div>
@@ -196,37 +196,38 @@
                     </div>
                     <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Pengiriman Domestik Udara</a>
                     </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    <p class="mt-md-2">Kami menawarkan Jasa Pengiriman Domestik Udara yang memungkinkan Anda mengirimkan barang dengan cepat dan mudah ke berbagai daerah di dalam negeri.</p>
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0049.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
                     <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Jasa Angkutan Domestik Laut dan Darat</a>
                     </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    <p class="mt-md-2">Kami menawarkan Jasa Angkutan Domestik Laut dan Darat yang memungkinkan Anda mengirimkan barang dengan cepat dan efisien ke berbagai daerah di dalam negeri.
+.</p>
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0070.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
                     <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img"> Jasa Inklaring Pelabuhan</a>
                     </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    <p class="mt-md-2">Kami menawarkan Jasa Inklaring Pelabuhan yang memastikan barang Anda dapat lolos pemeriksaan bea cukai dan dokumen administrasi di pelabuhan dengan cepat dan efisien.</p>
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0090.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
                     <h4 class="gdnhy-1 mt-lg-4 mt-3"><a href="#img">Pergudangan dan Distribusi</a>
                     </h4>
-                    <p class="mt-md-2">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    <p class="mt-md-2">Kami menawarkan layanan Pergudangan dan Distribusi dengan jaringan pergudangan yang luas dan dilengkapi dengan perlengkapan yang memadai untuk memudahkan pelanggan dalam mengakses dan mengelola persediaan barang.</p>
                 </div>
 
             </div>
@@ -237,42 +238,6 @@
         </div>
     </section>
     <!--//w3l-grids-->
-
-    <!--/testimonials-->
-    <section class="w3l-clients py-5" id="testimonials">
-        <div class="container pt-md-5 pt-4">
-            <div class="w3-testimonial-grids align-items-center py-lg-5">
-                <div class="w3-testimonial-content-top">
-                    <div class="mb-4">
-                        <div class="item">
-                            <div class="testimonial-content">
-                                <div class="testimonial">
-                                    <blockquote>
-                                        <q><i class="fas fa-quote-left me-2"></i>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae
-                                            laudantium
-                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                            Dolores molestias adipisci dolor sit amet! by the Desire to achieve
-                                            Success.</q>
-                                    </blockquote>
-                                    <div class="testi-des">
-                                        <div class="test-img"><img src="{{ asset('assets/images/team1.jpg') }}" class="img-fluid" alt="client-img">
-                                        </div>
-                                        <div class="peopl align-self">
-                                            <h3>John wilson</h3>
-                                            <p class="indentity">Subtitle goes here</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--//testimonials-->
     @include('layout.footer')
 
         <!-- Js scripts -->

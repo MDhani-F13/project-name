@@ -7,8 +7,8 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
-                <h1><a class="navbar-brand" href="{{ route('index') }}">
-                        <i class="fas fa-truck-moving"></i> Bumindo
+            <h1><a class="navbar-brand" href="{{ route('index') }}">
+                        <img src="{{ asset('assets/images/Logo_Bumindo.png') }}" alt="Bumindo" tittle="Bumindo">
                     </a></h1>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -64,7 +64,7 @@
     </header>
     <!--//Header-->
     <!--/inner-page-->
-    <div class="inner-banner py-5">
+    <div class="inner-banner2 py-5">
         <section class="w3l-breadcrumb text-left py-sm-5 ">
             <div class="container">
                 <div class="w3breadcrumb-gids">
@@ -96,7 +96,7 @@
                         <h5 class="title-subw3hny">Kontak</h5>
                         <h3 class="title-w3l mb-3">Hubungi kami</h3>
                         <p>
-                        Lorem ipsum dolor sit amet, cons ectetur adipiscing elitull am aliqu am, velit rutrum dictum lobortis, turpis justo auc tor quam, a auctor lorem odio in nunc.
+                        Kami berkomitmen untuk memberikan layanan terbaik dan mendengarkan kebutuhan Anda. Jangan ragu untuk menghubungi kami dan memberikan umpan balik atau saran apapun yang akan membantu kami meningkatkan kualitas layanan kami.
                         </p>
                     </div>
 

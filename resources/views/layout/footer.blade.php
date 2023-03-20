@@ -6,7 +6,7 @@
                     <div class="row footer-hny-grids sub-columns">
                         <div class="col-lg-5 sub-one-left pe-lg-5">
                             <h2><a class="navbar-brand" href="{{ route('index') }}">
-                                    <i class="fas fa-truck-moving"></i> Bumindo
+                                <img src="{{ asset('assets/images/Logo_Bumindo.png') }}" alt="Bumindo" tittle="Bumindo">
                                 </a></h2>
                             <p class="footer-phny mt-3">
                                 PT BUMINDO SARANA TRANSPORTASI berkomitmen untuk senantiasa menjaga kemanan, kenyamanan serta ketepatan waktu
@@ -76,7 +76,7 @@
                 </div>
                 <div class="below-section mt-lg-5 pt-lg-4">
                     <div class="copyright-footer">
-                        <p class="copyright-column">© 2022 Bumindo.All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+                        <p class="copyright-column">© 2023 Bumindo.All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
                                 W3Layouts</a></p>
 
                         <ul class="footer-w3list text-right">
