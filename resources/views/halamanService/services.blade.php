@@ -183,7 +183,7 @@
             <div class="witemshny-grids row">
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/voo-qqq-RSYBi_1fhfM-unsplash-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0049.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0070.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                 </div>
                 <div class="col-md-3 col-6 product-incfhny mt-4">
                     <div class="weitemshny-grid oposition-relative">
-                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                        <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0090.jpg') }}" alt="" class="img-fluid news-image"></a>
                         <div class="witemshny-inf">
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                 <div class="witemshny-grids row">
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g1.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/mover.png') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g6.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/EXHIBITION-CARGO-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g2.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0069-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -263,7 +263,7 @@
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0086-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -273,7 +273,7 @@
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0055-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -283,7 +283,7 @@
                     </div>
                     <div class="col-md-3 col-6 product-incfhny mt-4">
                         <div class="weitemshny-grid oposition-relative">
-                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/g5.jpg') }}" alt="" class="img-fluid news-image"></a>
+                            <a href="#img" class="d-block zoom"><img src="{{ asset('assets/images/IMG-20220310-WA0082-mini.jpg') }}" alt="" class="img-fluid news-image"></a>
                             <div class="witemshny-inf">
                             </div>
                         </div>
@@ -314,7 +314,7 @@
                         <div class="w3property-grid">
                             <a href="#property">
                                 <div class="box16">
-                                    <img class="img-fluid" src="{{ asset('assets/images/g3.jpg') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('assets/images/IMG-20220310-WA0094-crop-box.jpg') }}" alt="">
                                     <div class="box-content text-center">
                                         <i class="fas fa-truck-pickup"></i>
                                         <h3 class="title">Mobil Pickup</h3>
@@ -328,7 +328,7 @@
                         <div class="w3property-grid">
                             <a href="#property">
                                 <div class="box16">
-                                    <img class="img-fluid" src="{{ asset('assets/images/g6.jpg') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('assets/images/IMG-20220310-WA0090-OriC.jpg') }}" alt="">
                                     <div class="box-content text-center">
                                         <i class="fas fa-truck"></i>
                                         <h3 class="title">Truck</h3>
@@ -343,7 +343,7 @@
                             <a href="#property">
                                 <div class="box16">
 
-                                    <img class="img-fluid" src="{{ asset('assets/images/g1.jpg') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('assets/images/IMG-20220310-WA0071-box3.jpg') }}" alt="">
                                     <div class="box-content text-center">
                                         <i class="fas fa-truck-moving"></i>
                                         <h3 class="title">Tronton</h3>
@@ -358,7 +358,7 @@
                         <div class="w3property-grid">
                             <a href="#property">
                                 <div class="box16">
-                                    <img class="img-fluid" src="{{ asset('assets/images/g5.jpg') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('assets/images/IMG-20220310-WA0057-box.jpg') }}" alt="">
                                     <div class="box-content text-center">
                                         <i class="fas fa-ship"></i>
                                         <h3 class="title">Stooring</h3>
